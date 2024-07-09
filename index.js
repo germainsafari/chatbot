@@ -51,3 +51,8 @@ document.getElementById('demo').innerHTML = 'hello js'
 // writing inot the HTML output using document.write()
 // writing into the alert box, using window.alert()
 // writing into the browser, using console.log()
+arr = ['car','boat','plane']
+let l = arr.length;
+for (let i = 0; i < l; i++){
+	console.log(i)
+}
