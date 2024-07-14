@@ -1,0 +1,10 @@
+Getting started with Scikit learn
+
+Scikit learn is an open source ML library that supports supervised and unsupervised learning.
+It provides tools for model fitting, data preprocessing, model selection, model evaluation and many other utilities
+
+Important concepts
+- estimators
+-model fitting
+- model selection
+- model evaluation

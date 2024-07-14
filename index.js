@@ -56,3 +56,42 @@ let l = arr.length;
 for (let i = 0; i < l; i++){
 	console.log(i)
 }
+// const person = new Object()
+// person.firstname = "Germain";
+// person.lastname = 'Safari';
+// person.age = 23;
+
+function Person(firstname, lastname, age) {
+	this.firstname = firstname;
+	this.lastname = lastname;
+	this.age = age;
+};
+let person = new Person('Germain', 'Safari', 23)
+console.log(person)
+
+const fruits = [
+	{name:'bananas', quality: 20},
+	{name:'kiwi', quality:20},
+
+
+]
+function myFruits({quality}) {
+	return quality > 200
+}
+// a web worker is a Js running in the background, without affecting the perfomance of the page.
+// when executing scripts in an HTML page, the page becomes unresponsive till the script is finished.
+// a web worker is a Js that runs in the background, independently of other scripts, without affecting the perfomance 
+// of the page.
+
+// Js Fetch API: the fetch API interface allows web browser to make HTTP requests to a web servers.
+fetch(file)
+.then(x => x.text)
+.then(y => myDisplay(y))
+
+//with AJAX -- Asynchronous Javascript and XML, you can
+// read data from a web server - after the page has loaded
+// update a web page without reloading the page
+// send data to a web server 
+
+// With the HTML DOM , js can access and change elements of an HTML docx DOM means Document Object Model
+
