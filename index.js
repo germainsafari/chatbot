@@ -94,4 +94,10 @@ fetch(file)
 // send data to a web server 
 
 // With the HTML DOM , js can access and change elements of an HTML docx DOM means Document Object Model
-
+function validateForm() {
+	let x = document.forms['myForm']['fname'].value;
+	if (x = '' {
+		alert('name must be filled out')
+		return false;
+	})
+}
