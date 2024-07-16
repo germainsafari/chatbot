@@ -40,8 +40,10 @@ converting iterative statements into a vector based operation is called vectoriz
 
 
 '''
-l = [1,2,3,4]
-k = [3,5,5,3]
-x = l + k
-print(x.sort())
-
+# l = [1,2,3,4]
+# k = [3,5,5,3]
+# x = l + k
+# print(x.sort())
+y= 2
+lambda y : y**2
+print(y)
